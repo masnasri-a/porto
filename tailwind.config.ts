@@ -11,7 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "#90ff00",
+        secondary: "#223d02",
       },
+        fontFamily: {
+            josefin: "var(--font-josefin-sans)",
+        },
     },
   },
   plugins: [],
