@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Headers from "./components/headers";
 import Profile from "./components/profile";
 import Client from "./components/client";
