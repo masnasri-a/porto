@@ -10,7 +10,7 @@ const Client = () => {
         <div className='flex flex-col items-center justify-center w-screen'>
             <span className='font-josefin font-bold text-xl'>Our Client</span>
             <span className='font-josefin text-primary'>More than 10 Client who have worked with me</span>
-            <div className="flex w-8/12 h-28 mt-10 mb-20">
+            <div className="flex w-8/12 justify-center md:flex-row flex-col md:h-28 h-full mt-10 mb-20">
                 <div className="border-white border flex items-center justify-center">
                     <Image src={Ice} alt="ice" className='w-6/12' />
                 </div>

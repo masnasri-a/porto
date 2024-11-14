@@ -15,8 +15,8 @@ export default function Home() {
     <Client />
     <About />
     <Service />
-    <Collab />
     <Project />
+    <Collab />
     <Footer />
     </>
   );

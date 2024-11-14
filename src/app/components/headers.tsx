@@ -14,7 +14,7 @@ const Headers = () => {
         { title: 'Contact', url: '#contact' },
     ]
     return (
-        <div className="w-screen fixed top-0 z-50 bg-black h-12 py-6 px-20 flex justify-between">
+        <div className="w-screen fixed top-0 z-50 bg-black h-12 py-6 px-20 hidden justify-between font-josefin md:flex">
             <div className="list-menu flex gap-5">
                 {
                     data.map((item, index) => (
@@ -22,8 +22,8 @@ const Headers = () => {
                     ))
                 }
             </div>
-            <div className="get">
-                <button className="border border-primary h-10 px-6 text-white">
+            <div className="">
+                <button className="border border-primary h-10 px-6 text-white bg-black">
                     Get in Touch
                 </button>
             </div>
