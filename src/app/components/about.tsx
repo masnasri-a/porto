@@ -4,7 +4,6 @@ import { FaArrowRight } from 'react-icons/fa'
 import Bgs from '@/../public/bgs.png';
 import Image from 'next/image';
 const About = () => {
-    const [yearNow, setYearNow] = React.useState(new Date().getFullYear());
     return (
         <div className="">
             <div className="flex">
@@ -24,7 +23,7 @@ const About = () => {
                     <span className='font-josefin text-gray-300'>Clients</span>
                 </div>
                 <div className="flex flex-col items-center ">
-                    <span className='font-josefin md:text-7xl text-4xl'>{yearNow - 2019}<span className='text-primary'>+</span></span>
+                    <span className='font-josefin md:text-7xl text-4xl'>{new Date().getFullYear() - 2019}<span className='text-primary'>+</span></span>
                     <span className='font-josefin text-gray-300'>Year Experience</span>
                 </div>
             </div>
