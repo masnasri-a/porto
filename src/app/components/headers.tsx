@@ -23,9 +23,11 @@ const Headers = () => {
                 }
             </div>
             <div className="">
-                <button className="border border-primary h-10 px-6 text-white bg-black">
-                    Get in Touch
-                </button>
+                <a href="https://wa.me/+6282228893284">
+                    <button className="border border-primary h-10 px-6 text-white bg-black">
+                        Get in Touch
+                    </button>
+                </a>
             </div>
         </div>
 

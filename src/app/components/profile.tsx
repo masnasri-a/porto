@@ -11,7 +11,9 @@ const Profile = () => {
                 <span className="font-josefin text-xl font-semibold">Hello Dear, I am </span>
                 <span className="font-josefin md:text-8xl text-3xl font-extrabold bg-primary w-max px-6 md:pt-4 pt-2 text-black md:text-nowrap text-wrap">Nasri Adzlani</span>
                 <span className='font-josefin text-xl text-gray-300 md:text-start text-center'>Hello, my name is nasri adzlani, nice to meet you I would like <br />to welcome you with my personal portofolio</span>
-                <button className="border border-primary font-josefin hover:bg-secondary hover:translate-x-2 w-max mt-5 h-10 px-6 pt-1 text-white">Download CV</button>
+                <a href="/CV-NasriAdzlani.pdf">
+                    <button className="border border-primary font-josefin hover:bg-secondary hover:translate-x-2 w-max mt-5 h-10 px-6 pt-1 text-white">Download CV</button>
+                </a>
             </div>
             <div className="relative z-0 w-screen">
                 <Image src={Background} alt="background" className='w-screen blur-sm' />

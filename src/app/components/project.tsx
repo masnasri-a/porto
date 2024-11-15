@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Project = () => {
   return (
-    <div className='flex flex-col items-end p-10 bg-neutral-800'>
+    <div className='flex flex-col items-end p-10 bg-neutral-800' id="portfolio">
       <span className='font-josefin font-bold text-primary text-3xl'><span className='text-white'>Selected </span>Projects</span>
       <div className="scroll-m-2 flex md:flex-row flex-col gap-5 mt-10">
         <div className="w-1/12"></div>
