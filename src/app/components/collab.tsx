@@ -2,7 +2,7 @@ import React from 'react'
 
 const Collab = () => {
   return (
-    <div className='flex flex-col items-center my-40 gap-5' id="contact">
+    <div className='flex flex-col items-center my-40 gap-5 text-white' id="contact">
         <span className='font-josefin text-primary'>Collaboration</span>
         <span className='font-josefin font-bold md:text-8xl text-4xl text-center'>Lets talk to <br/> Collaboration</span>
         <div className="">
