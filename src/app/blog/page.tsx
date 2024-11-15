@@ -32,7 +32,6 @@ export default function Page() {
     }
 
     useEffect(() => {
-        console.log("items", items);
         getData();
     }, [])
 
